@@ -1,0 +1,1 @@
+import React from'react';export default class ErrorBoundary extends React.Component{state={bad:false};static getDerivedStateFromError(){return{bad:true}}render(){return this.state.bad?<div className="fatal"><h1>Dealer Operations Portal</h1><p>Please refresh the application.</p></div>:this.props.children}}

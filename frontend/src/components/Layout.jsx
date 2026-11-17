@@ -1,0 +1,1 @@
+import Sidebar from'./Sidebar';import Topbar from'./Topbar';export default function Layout({children}){return <div className="shell"><Sidebar/><div className="main"><Topbar/><main>{children}</main><footer>Dealer Operations Portal | Demo application | All data is fictional</footer></div></div>}

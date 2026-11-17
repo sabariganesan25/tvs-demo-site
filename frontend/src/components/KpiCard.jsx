@@ -1,0 +1,1 @@
+import{Icon}from'./icons';export default function KpiCard({item}){return <article className="kpi"><Icon name={item.icon}/><small>{item.label}</small><strong>{item.value}</strong><em>{item.trend}</em></article>}

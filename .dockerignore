@@ -1,0 +1,9 @@
+.venv
+frontend/node_modules
+frontend/dist
+logs
+deploy.zip
+azure-logs*.zip
+backend/.env
+*.pyc
+__pycache__

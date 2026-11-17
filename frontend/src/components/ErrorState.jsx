@@ -1,0 +1,1 @@
+export default function ErrorState({error,retry}){return <div className="state"><h2>This service is temporarily unavailable.</h2><p>Please retry. <small>{error?.status||'unknown'}</small></p><button onClick={retry}>Retry</button></div>}

@@ -1,0 +1,1 @@
+import{Link}from'react-router-dom';export default function NotFound(){return <div className="state"><h2>Page not found</h2><p>This dealer portal route is unavailable.</p><Link to="/">Return to dashboard</Link></div>}

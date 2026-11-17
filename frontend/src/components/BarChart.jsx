@@ -1,0 +1,1 @@
+export default function BarChart({data}){let max=Math.max(...data.map(x=>x.value));return <div className="chart">{data.map(x=><div className="bar" key={x.label}><span>{x.label}</span><i><b style={{width:x.value/max*100+'%'}}/></i><strong>{x.value}</strong></div>)}</div>}

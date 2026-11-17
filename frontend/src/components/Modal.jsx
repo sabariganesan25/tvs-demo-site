@@ -1,0 +1,1 @@
+export default function Modal({children,onClose}){return <div className="modal-bg" onMouseDown={onClose}><section className="modal" onMouseDown={e=>e.stopPropagation()}><button className="close" onClick={onClose}>×</button>{children}</section></div>}
